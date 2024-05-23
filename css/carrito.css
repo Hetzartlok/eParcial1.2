@@ -1,0 +1,11 @@
+#contenedorProducto1,
+#contenedorProducto2 {
+    display: inline-block;
+    text-align: center;
+    margin: 10%;
+    width: auto;
+}
+
+#contenedor-cantidad {
+    display: inline-block;
+}
