@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Carrito de Compras</title>
 </head>
+
 <body>
     <main>
         <section id="tituloCarrito">
@@ -18,7 +21,12 @@
                 <img src="" alt="">
                 <h2>Producto 1</h2>
                 <p>Valor unitario: 10</p>
-                <p>cantidad:</p>
+                <div id="contenedor-cantidad">
+                    <p>cantidad:</p>
+                    <button id="disminuir1">-</button>
+                    <p id="contador-producto1">0</p>
+                    <button id="incrementar1">+</button>
+                </div>
                 <button>Eliminar</button>
             </div>
 
@@ -26,7 +34,12 @@
                 <img src="" alt="">
                 <h2>Producto 2</h2>
                 <p>Valor unitario: 20</p>
-                <p>cantidad:</p>
+                <div id="contenedor-productos">
+                    <p>cantidad:</p>
+                    <button id="disminuir2">-</button>
+                    <p id="contador-producto2">0</p>
+                    <button id="incrementar2">+</button>
+                </div>
                 <button>Eliminar</button>
             </div>
         </section>
@@ -35,6 +48,8 @@
     <footer>
         <p>&copy; Compra con nosotros!!</p>
     </footer>
+
+    <script src="../js/carrito.js"></script>
 
 </body>
 </html>
